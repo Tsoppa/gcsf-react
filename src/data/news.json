@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "require('./images/react-logo.png')",
+        "title": "Winter Cup 2023",
+        "description": "blablalba",
+        "video": "https://youtu.be/6ZzkSRLmtFw"
+    },
+    {
+        "id": 2,
+        "image": "require('./images/react-logo.png')",
+        "title": "Winter Cup 2022",
+        "description": "blablalba",
+        "video": "https://youtu.be/6ZzkSRLmtFw"
+    },
+    {
+        "id": 3,
+        "image": "require('./images/react-logo.png')",
+        "title": "Winter Cup 2021",
+        "description": "blablalba",
+        "video": "https://youtu.be/6ZzkSRLmtFw"
+    }
+]
