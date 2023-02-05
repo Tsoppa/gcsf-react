@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "IESF_Logo.png",
+        "title": "IESF",
+        "url": "https://iesf.org/"
+    },
+    {
+        "id": 2,
+        "image": "eef_colored.svg",
+        "title": "EEF",
+        "url": ""
+    },
+    {
+        "id": 3,
+        "image": "europebetLogo.svg",
+        "title": "europebet",
+        "url": ""
+    },
+    {
+        "id": 4,
+        "image": "GEF.png",
+        "title": "GEF",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "image": "kingston.png",
+        "title": "kingston",
+        "url": ""
+    },
+    {
+        "id": 6,
+        "image": "LENOVO_LEGION.PNG",
+        "title": "Lenovo Legion",
+        "url": ""
+    }
+]

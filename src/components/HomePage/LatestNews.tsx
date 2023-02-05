@@ -1,12 +1,12 @@
 import NewsData from '../../data/news.json';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import {Box, Button} from '@mui/material';
+import {Box, Button, Typography} from '@mui/material';
 
 const StyledDiv = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 12px;
 `;
 
 const StyledGridDiv = styled.div`
@@ -26,14 +26,14 @@ const LatestNews = () => {
     <StyledDiv>
         <h2>Latest News</h2>
         <StyledGridDiv>
-            {NewsData.map((items, index) => (
-                <Box key={index} sx={{boxShadow: 3, borderRadius: "16px", padding: "16px"}}>
-                    <div>
+            {NewsData.slice(-6).map((items, index) => (
+                <Box key={index} display="flex" flexDirection="column" gap="16px" sx={{boxShadow: 3, borderRadius: "16px", padding: "16px", backgroundColor: "#e6e8ed", maxWidth: "432px"}}>
+                    <Box display="flex" flexDirection="column" gap="16px">
                         <img src={require('../../assets/images/testImages/' + items.image)} alt={items.title} />
-                        <h6>{items.title}</h6>
+                        <Typography variant="h5" fontWeight="bold" fontFamily="Montserrat">{items.title}</Typography>
                         <p>{items.shortDescription}</p>
-                    </div>
-                    <Link to="/news">
+                    </Box>
+                    <Link to="/news" target="_blank">
                         <Button variant="outlined">Read More</Button>
                     </Link>
                 </Box>

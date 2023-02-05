@@ -6,7 +6,7 @@ const StyledDiv = styled.div`
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-top: 48px;
+    padding: 48px 0;
 `;
 
 const Layout = () => {

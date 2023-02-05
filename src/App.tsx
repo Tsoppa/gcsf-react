@@ -1,14 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import Header from "./components/HomePage/Header";
-import Landing from "./components/HomePage/Landing";
-import Layout from "./components/HomePage/Layout";
 import SingleNews from "./components/NewsPage/SingleNews";
+import HomeLayout from "./components/HomePage/HomeLayout";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<><Header /><Landing /><Layout /></>} />
+        <Route path="/" element={<HomeLayout />} />
         <Route path="/news" element={<SingleNews />} />
       </Routes>
     </div>
