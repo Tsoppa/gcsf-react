@@ -1,4 +1,4 @@
-import Cover from '../../assets/images/testImageCover.jpg';
+import Cover from '../../assets/images/testImages/testImageCover.jpg';
 import styled from 'styled-components';
 
 const StyledDiv = styled.div`

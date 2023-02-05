@@ -5,7 +5,8 @@ import styled from 'styled-components';
 const StyledDiv = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 24px;
+    padding-top: 48px;
 `;
 
 const Layout = () => {

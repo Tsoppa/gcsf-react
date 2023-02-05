@@ -1,22 +1,25 @@
 [
     {
         "id": 1,
-        "image": "require('./images/react-logo.png')",
+        "image": "testImage2.jpg",
         "title": "Winter Cup 2023",
+        "shortDescription": "blablalba",
         "description": "blablalba",
         "video": "https://youtu.be/6ZzkSRLmtFw"
     },
     {
         "id": 2,
-        "image": "require('./images/react-logo.png')",
+        "image": "testImage3.jpg",
         "title": "Winter Cup 2022",
+        "shortDescription": "blablalba",
         "description": "blablalba",
         "video": "https://youtu.be/6ZzkSRLmtFw"
     },
     {
         "id": 3,
-        "image": "require('./images/react-logo.png')",
+        "image": "testImageCover.jpg",
         "title": "Winter Cup 2021",
+        "shortDescription": "blablalba",
         "description": "blablalba",
         "video": "https://youtu.be/6ZzkSRLmtFw"
     }
