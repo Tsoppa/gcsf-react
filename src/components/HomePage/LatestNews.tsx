@@ -33,7 +33,7 @@ const LatestNews = () => {
                         <Typography variant="h5" fontWeight="bold" fontFamily="Montserrat">{items.title}</Typography>
                         <p>{items.shortDescription}</p>
                     </Box>
-                    <Link to="/news" target="_blank">
+                    <Link to={`/news/${items.newsUrl}`}>
                         <Button variant="outlined">Read More</Button>
                     </Link>
                 </Box>
