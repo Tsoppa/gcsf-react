@@ -1,5 +1,5 @@
 import {Box} from '@mui/material';
-import Logo from '../../assets/images/gcsfLogo.png';
+import Logo from '../assets/images/gcsfLogo.png';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 

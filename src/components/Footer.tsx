@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import { Box } from '@mui/material';
-import Logo from '../../assets/images/gcsfLogo.png';
+import Logo from '../assets/images/gcsfLogo.png';
 
 const StyledFooter = styled(Box)`
     display: flex;
