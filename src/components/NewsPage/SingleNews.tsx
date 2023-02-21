@@ -9,7 +9,12 @@ const StyledBox = styled(Box)`
   }
 
   p {
+    white-space: pre-wrap;
     max-width: 720px;
+
+    @media only screen and (max-width: 480px) {
+      font-size: 8px;
+    }
   }
 
   img {
@@ -57,6 +62,17 @@ const SingleNews = () => {
   if (!item) {
     return <div>News not found</div>;
   }
+
+  // in news json if you want to break line and handle paragraph you need to add "\n"
+
+  // \" – double quote
+  // \\ – single backslash
+  // \a – bell/alert
+  // \b – backspace
+  // \r – carriage return
+  // \n – newline
+  // \s – space
+  // \t – tab
 
   return (
     <StyledBox display="flex" flexDirection="column" alignItems="center" padding="48px 0" gap="20px">
